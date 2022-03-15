@@ -1,0 +1,34 @@
+#calculator {
+  width: 33%;
+  padding: 1rem;
+  background-color: #2a2a2a;
+  display: grid;
+  gap: 3px 3px;
+  grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+}
+
+.display {
+  display: flex;
+  grid-area: 1 / 1 / span 1 / span 4;
+  background-color: #fff;
+  padding: 1rem;
+  font-size: 2rem;
+  justify-content: flex-end;
+}
+
+button {
+  border: 1px solid #fff;
+  font-size: 2rem;
+}
+
+.btn-orange {
+  background-color: rgb(250, 125, 41);
+}
+
+.btn-gray {
+  background-color: rgb(241, 238, 238);
+}
+
+.zero {
+  grid-area: 6 / 1 / span 1 / span 2;
+}
