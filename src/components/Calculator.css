@@ -1,28 +1,29 @@
 #calculator {
+  margin: 1rem;
   width: 33%;
-  padding: 1rem;
-  background-color: #2a2a2a;
   display: grid;
-  gap: 3px 3px;
-  grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+  gap: 1px 1px;
+  background-color: #d1d1d1;
+  grid-template: repeat(6, 1fr) / repeat(4, 1fr);
 }
 
 .display {
   display: flex;
   grid-area: 1 / 1 / span 1 / span 4;
-  background-color: #fff;
+  background-color: rgb(119, 125, 133);
   padding: 1rem;
   font-size: 2rem;
   justify-content: flex-end;
+  color: #fff;
 }
 
 button {
-  border: 1px solid #fff;
-  font-size: 2rem;
+  border: 1px solid #d1d1d1;
+  font-size: 1.5rem;
 }
 
 .btn-orange {
-  background-color: rgb(250, 125, 41);
+  background-color: rgb(253, 134, 54);
 }
 
 .btn-gray {
