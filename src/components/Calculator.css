@@ -1,6 +1,11 @@
+.calculator-section {
+  display: flex;
+  justify-content: space-between;
+}
+
 #calculator {
   margin: 1rem;
-  width: 33%;
+  width: 60%;
   display: grid;
   gap: 1px 1px;
   background-color: #c8c8c8;

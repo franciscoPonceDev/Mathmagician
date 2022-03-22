@@ -1,3 +1,17 @@
 .App {
   text-align: center;
 }
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
