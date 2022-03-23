@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calculator renders correct 1`] = `[Function]`;
+
+exports[`calculator renders correctly 1`] = `[Function]`;
