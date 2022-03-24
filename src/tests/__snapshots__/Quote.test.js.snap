@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`quotes render correct 1`] = `
+<section
+  className="quote"
+>
+  <div>
+    <h2>
+      Mathemagics is not about numbers, equations,computations, or algorithms; Is about understanding. -William Paul Thurston
+    </h2>
+  </div>
+</section>
+`;
+
+exports[`quotes render correctly 1`] = `
+<section
+  className="quote"
+>
+  <div>
+    <h2>
+      Mathemagics is not about numbers, equations,computations, or algorithms; Is about understanding. -William Paul Thurston
+    </h2>
+  </div>
+</section>
+`;

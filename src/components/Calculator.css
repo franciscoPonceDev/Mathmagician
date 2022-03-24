@@ -1,0 +1,40 @@
+.calculator-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+#calculator {
+  margin: 1rem;
+  width: 60%;
+  display: grid;
+  gap: 1px 1px;
+  background-color: #c8c8c8;
+  grid-template: repeat(6, 1fr) / repeat(4, 1fr);
+}
+
+.display {
+  display: flex;
+  grid-area: 1 / 1 / span 1 / span 4;
+  background-color: rgb(133, 134, 147);
+  padding: 1rem;
+  font-size: 2rem;
+  justify-content: flex-end;
+  color: #fff;
+}
+
+button {
+  border: 1px solid #c8c8c8;
+  font-size: 1.5rem;
+}
+
+.btn-orange {
+  background-color: rgb(232, 143, 62);
+}
+
+.btn-gray {
+  background-color: rgb(244, 244, 244);
+}
+
+.zero {
+  grid-area: 6 / 1 / span 1 / span 2;
+}
